@@ -27,7 +27,9 @@ brew install px4-sim
 If the installation outputs an error message about missing requirements follow the instructions. Your system will be missing Java and Quartz:
 
 ```sh
-brew cask install xquartz java
+brew cask install xquartz
+brew tap caskroom/versions
+brew cask install java8
 ```
 
 Install pip if you don't already have it and use it to install the required packages:
